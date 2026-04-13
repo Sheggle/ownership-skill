@@ -4,8 +4,6 @@ A skill for taking autonomous ownership of a KPI in a codebase. Invoke with `/ow
 
 ## Structure
 - `.claude/commands/own.md` — The skill prompt
-- `prompts/` — Deliberation agent prompts (challenger, guardian, strategist)
-- `target/` — The target codebase (currently: gz-chat-juridisch)
 - `.ownership/<kpi>/` — Per-KPI state (created by the skill on first run)
 
 ## How It Works
@@ -22,5 +20,3 @@ Before significant decisions, the owner spawns three agents:
 
 Deliberation output is always logged in the decision log.
 
-## Target: gz-chat-juridisch
-A Dutch legal consultation chat app. FastAPI + SQLite FTS5 (1.1M legal documents) + Claude integration + E2E encryption. See `target/` for the full codebase.

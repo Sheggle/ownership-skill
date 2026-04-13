@@ -1,3 +1,2 @@
 *.lock
 .claude/settings.local.json
-target/
