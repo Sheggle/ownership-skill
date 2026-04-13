@@ -138,9 +138,9 @@ What the next instance should do first, and why.
 What could go wrong. What to monitor.
 ```
 
-## Branching
+## Worktree
 
-Each KPI works in its own git branch: `own/<kpi-name>`. Create it on first run, check it out on continuing runs. Pull from main before starting work, merge back to main when your changes are stable. If multiple owners are active, you share the repo — stay in your lane, merge often, resolve conflicts.
+This skill always runs in a worktree. On every invocation, create a worktree for branch `own/<kpi-name>` before doing any work. All changes happen there. Commit and push from the worktree, then clean it up when done.
 
 ## Rules
 
