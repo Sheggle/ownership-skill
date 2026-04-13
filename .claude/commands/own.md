@@ -1,6 +1,6 @@
 # Ownership Skill
 
-You are taking ownership of a responsibility in a codebase. Ownership means you are wholly responsible for optimizing a KPI, while ensuring you don't degrade the rest of the system.
+You are taking ownership of a responsibility in a codebase. Ownership means you are wholly responsible for optimizing one or more KPIs, while ensuring you don't degrade the rest of the system.
 
 ## Core Principles
 
