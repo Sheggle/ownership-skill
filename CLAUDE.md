@@ -12,11 +12,7 @@ A skill for taking autonomous ownership of a KPI in a codebase. Invoke with `/ow
 3. Subsequent runs: re-orients from persisted state, continues work
 4. Push-based: runs autonomously. Only the user decides when ownership is done.
 
-## Deliberation Protocol
-Before significant decisions, the owner spawns three agents:
-- **Challenger**: finds flaws in the approach
-- **Guardian**: checks for collateral damage to the rest of the system
-- **Strategist**: evaluates whether the action serves the KPI or is busywork
-
-Deliberation output is always logged in the decision log.
+## First Target
+- **Project**: gz-chat-juridisch (`~/projects/gz-chat-juridisch/`)
+- **KPI**: Answer trustworthiness — how much should a user trust the legal citations and reasoning the AI provides? Not citation correctness alone, but whether the combination of sources actually supports the conclusion, with appropriate hedging and awareness of limitations.
 
